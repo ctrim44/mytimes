@@ -61,11 +61,13 @@ h2 {
 	color: black;
 }
 
+#main,
 #fall,
 #hipster,
 #cat {
 	color: white;
 }
+
 
 /*Large Column*/
 
@@ -80,11 +82,18 @@ h2 {
 }
 
 .bot {
-	width: 290px;
+	max-width: 300px;
 }
 
 #main {
 	background-image: url("../images/main.png");
+	height: 300px;
+	display: flex;
+	align-items: center;
+}
+
+#main h2{
+	font-size: 40px;
 }
 
 #fall {
@@ -123,4 +132,22 @@ h2 {
 .col-sml {
 	width: 240px;
 	margin: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+.col-sml h3 {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.bite {
+	border-bottom: 1px solid black;
+	background-color: WhiteSmoke;
+	font-family: Verdana;
+	font-size: 12px;
+	color: DimGray;
+	padding: 7px;
+
 }

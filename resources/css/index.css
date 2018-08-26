@@ -5,6 +5,38 @@ body {
 /* Header Section */
 
 header {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+nav ul {
+	display: inline-flex;
+
+}
+
+li {
+	list-style: none;
+	width: 50px;
+	text-align: center;
+	margin: 0 20px;
+}
+
+li a {
+	color: black;
+}
+
+.logo {
+	color: MediumAquamarine;
+	display: flex;
+	align-items: center;
+}
+
+.logo span {
+	padding-left: 4px;
 }

@@ -57,6 +57,7 @@ h2 {
 .page {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	margin-bottom: 50px;
 	position: relative;
 	top: 82px;
@@ -82,15 +83,20 @@ h2 {
 .col-large {
 	width: 630px;
 	margin: 5px;
+	background-color: rgb(76, 221, 174);
+	padding: 10px;
 }
 
 .col-large-bot {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .bot {
 	max-width: 300px;
+	background-color: rgb(149, 203, 185);
+	padding: 5px;
 }
 
 .margin {
@@ -129,6 +135,8 @@ h2 {
 .col-med {
 	width: 300px;
 	margin: 5px;
+	background-color: rgb(136, 161, 153);
+	padding: 10px;
 }
 
 #cat {
@@ -146,6 +154,8 @@ h2 {
 	margin: 5px;
 	display: flex;
 	flex-direction: column;
+	background-color: rgb(76, 221, 174);
+	padding: 10px;
 }
 
 .col-sml h3 {
